@@ -17,7 +17,7 @@ Sitio estático (HTML + CSS + JS, sin compilación). Se puede publicar tal cual 
 ## Añadir una pintura
 
 1. Guarda la foto en `assets/obras/nombre-de-la-obra.jpg` (cuanto más grande y nítida, mejor; ideal 2000 px de lado largo).
-2. En `index.html`, copia uno de los bloques `<li class="obra">` dentro de `<ul class="galeria">` y cambia la imagen, el título, la técnica y las medidas. Actualiza `width`/`height` con el tamaño real de la foto y el contador "15 trabajos".
+2. En `index.html`, copia uno de los bloques `<li class="obra">` dentro de `<ul class="galeria">` y cambia la imagen, el título, la técnica y las medidas. Actualiza `width`/`height` con el tamaño real de la foto y el texto alternativo.
 
 ## Recursos de diseño instalados
 

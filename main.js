@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   const botones = [...document.querySelectorAll(".obra__abrir")];
   const obras = botones.map((b) => {
-    const li = b.closest(".obra");
+    const li = b.closest("[data-obra]");
     const img = b.querySelector("img");
     return {
       src: img.getAttribute("src"),
