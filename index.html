@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tulio Di Lorenzo · Pintura</title>
   <meta name="description" content="Tulio Fausto Di Lorenzo, pintor expresionista figurativo italo-argentino. Nacido en Buenos Aires en 1973, con taller en Málaga. Obra, biografía y contacto.">
-  <meta name="theme-color" content="#f6f4ef">
+  <meta name="theme-color" content="#0b0a0b">
   <meta property="og:title" content="Tulio Di Lorenzo · Pintura">
   <meta property="og:description" content="Expresionismo figurativo. Materia, gran formato y honestidad.">
   <meta property="og:image" content="assets/obras/sonador.jpg">
@@ -42,104 +42,100 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
         </a>
       </div>
-      <figure class="portada__cuadro">
-        <img src="assets/obras/sonador.jpg" width="418" height="557" alt="“Soñador”, óleo sobre lienzo, 100 × 81 cm" fetchpriority="high">
-        <figcaption><span class="obra__titulo">Soñador</span> · óleo sobre lienzo · 100 × 81 cm</figcaption>
+      <figure class="portada__cuadro" data-obra>
+        <button class="obra__abrir" type="button" aria-label="Ver “Soñador” en grande">
+          <span class="obra__marco"><img src="assets/obras/sonador.jpg" width="418" height="557" alt="“Soñador”, óleo sobre lienzo, 100 × 81 cm" fetchpriority="high"></span>
+        </button>
+        <figcaption><span class="obra__titulo">Soñador</span><span class="obra__datos">Óleo sobre lienzo · 100 × 81 cm</span></figcaption>
       </figure>
     </section>
 
     <section class="obra-seccion" id="obra" aria-labelledby="obra-titulo">
       <div class="seccion-cabeza">
         <h2 id="obra-titulo">obra</h2>
-        <p>15 trabajos · toca una pintura para verla en grande</p>
+        <p>toca una pintura para verla en grande</p>
       </div>
       <ul class="galeria" role="list">
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="0" aria-label="Ver “El viaje” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “El viaje” en grande">
             <span class="obra__marco"><img src="assets/obras/el-viaje.jpg" width="453" height="604" alt="“El viaje”, óleo sobre lienzo, 81 × 65 cm" loading="eager" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">El viaje</span><span class="obra__datos">Óleo sobre lienzo · 81 × 65 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="1" aria-label="Ver “Bellina” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Bellina” en grande">
             <span class="obra__marco"><img src="assets/obras/bellina.jpg" width="409" height="811" alt="“Bellina”, óleo sobre papel, 40 × 35 cm" loading="eager" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Bellina</span><span class="obra__datos">Óleo sobre papel · 40 × 35 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="2" aria-label="Ver “Soñador” en grande">
-            <span class="obra__marco"><img src="assets/obras/sonador.jpg" width="418" height="557" alt="“Soñador”, óleo sobre lienzo, 100 × 81 cm" loading="eager" decoding="async"></span>
-          </button>
-          <p class="obra__pie"><span class="obra__titulo">Soñador</span><span class="obra__datos">Óleo sobre lienzo · 100 × 81 cm</span></p>
-        </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="3" aria-label="Ver “Sublime” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Sublime” en grande">
             <span class="obra__marco"><img src="assets/obras/sublime.jpg" width="512" height="436" alt="“Sublime”, mixta: acrílico y óleo, 41 × 33 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Sublime</span><span class="obra__datos">Mixta: acrílico y óleo · 41 × 33 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="4" aria-label="Ver “Pop 80’” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Pop 80’” en grande">
             <span class="obra__marco"><img src="assets/obras/pop-80.jpg" width="481" height="640" alt="“Pop 80’”, mixta: gesso, acrílico y óleo, 115 × 90 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Pop 80’</span><span class="obra__datos">Mixta: gesso, acrílico y óleo · 115 × 90 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="5" aria-label="Ver “Obsesión” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Obsesión” en grande">
             <span class="obra__marco"><img src="assets/obras/obsesion.jpg" width="436" height="582" alt="“Obsesión”, mixta: acrílico y óleo, 115 × 90 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Obsesión</span><span class="obra__datos">Mixta: acrílico y óleo · 115 × 90 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="6" aria-label="Ver “Dolor” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Dolor” en grande">
             <span class="obra__marco"><img src="assets/obras/dolor.jpg" width="432" height="576" alt="“Dolor”, mixta: acrílico y óleo, 120 × 120 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Dolor</span><span class="obra__datos">Mixta: acrílico y óleo · 120 × 120 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="7" aria-label="Ver “Équinoxe 5” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Équinoxe 5” en grande">
             <span class="obra__marco"><img src="assets/obras/equinoxe-5.jpg" width="478" height="345" alt="“Équinoxe 5”, mixta: acrílico y óleo, 81 × 65 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Équinoxe 5</span><span class="obra__datos">Mixta: acrílico y óleo · 81 × 65 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="8" aria-label="Ver “Todo un palo” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Todo un palo” en grande">
             <span class="obra__marco"><img src="assets/obras/todo-un-palo.jpg" width="521" height="391" alt="“Todo un palo”, mixta: acrílico y óleo, 100 × 81 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Todo un palo</span><span class="obra__datos">Mixta: acrílico y óleo · 100 × 81 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="9" aria-label="Ver “Deseando” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Deseando” en grande">
             <span class="obra__marco"><img src="assets/obras/deseando.jpg" width="582" height="373" alt="“Deseando”, mixta: óleo y aerógrafo, 81 × 54 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Deseando</span><span class="obra__datos">Mixta: óleo y aerógrafo · 81 × 54 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="10" aria-label="Ver “The Vincent Land” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “The Vincent Land” en grande">
             <span class="obra__marco"><img src="assets/obras/the-vincent-land.jpg" width="556" height="472" alt="“The Vincent Land”, mixta: acrílico, óleo y gesso granulado, 100 × 81 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">The Vincent Land</span><span class="obra__datos">Mixta: acrílico, óleo y gesso granulado · 100 × 81 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="11" aria-label="Ver “The butcher” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “The butcher” en grande">
             <span class="obra__marco"><img src="assets/obras/the-butcher.jpg" width="524" height="698" alt="“The butcher”, óleo sobre lienzo, 43 × 43 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">The butcher</span><span class="obra__datos">Óleo sobre lienzo · 43 × 43 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="12" aria-label="Ver “Apasionado dolor” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Apasionado dolor” en grande">
             <span class="obra__marco"><img src="assets/obras/apasionado-dolor.jpg" width="553" height="559" alt="“Apasionado dolor”, mixta: acrílico, óleo y collage, 120 × 120 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Apasionado dolor</span><span class="obra__datos">Mixta: acrílico, óleo y collage · 120 × 120 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="13" aria-label="Ver “2024” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “2024” en grande">
             <span class="obra__marco"><img src="assets/obras/2024.jpg" width="503" height="662" alt="“2024”, mixta: acrílico, óleo y spray, 92 × 73 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">2024</span><span class="obra__datos">Mixta: acrílico, óleo y spray · 92 × 73 cm</span></p>
         </li>
-        <li class="obra">
-          <button class="obra__abrir" type="button" data-index="14" aria-label="Ver “Sobre el fuego” en grande">
+        <li class="obra" data-obra>
+          <button class="obra__abrir" type="button" aria-label="Ver “Sobre el fuego” en grande">
             <span class="obra__marco"><img src="assets/obras/sobre-el-fuego.jpg" width="504" height="594" alt="“Sobre el fuego”, óleo sobre lienzo, 92 × 73 cm" loading="lazy" decoding="async"></span>
           </button>
           <p class="obra__pie"><span class="obra__titulo">Sobre el fuego</span><span class="obra__datos">Óleo sobre lienzo · 92 × 73 cm</span></p>
